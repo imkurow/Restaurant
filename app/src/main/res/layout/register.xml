@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:src="@drawable/shape"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome on Cooks Menu!"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Good food Happy Tummy :)"
+            android:layout_gravity="center"
+            android:textSize="12dp"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+
+        <EditText
+            android:id="@+id/username"
+            android:inputType="textEmailAddress"
+            android:layout_width="350dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_height="50dp"
+            android:hint="username"
+            android:paddingStart="10dp"
+            android:textSize="15dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/person_24c"/>
+
+
+        <EditText
+            android:id="@+id/email"
+            android:inputType="textEmailAddress"
+            android:layout_width="350dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_height="50dp"
+            android:hint="Email"
+            android:paddingStart="10dp"
+            android:textSize="15dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="10dp"
+
+            android:drawableStart="@drawable/email_24"/>
+    </LinearLayout>
+
+
+    <!--    -->
+<!--    -->
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/inputusername"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="text"-->
+<!--        android:text="Username"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="100dp"-->
+<!--        tools:layout_editor_absoluteY="286dp" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Register Page"-->
+<!--        android:textSize="30dp"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="112dp"-->
+<!--        tools:layout_editor_absoluteY="205dp" />-->
+
+
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="206dp"-->
+<!--        android:layout_height="41dp"-->
+<!--        android:text="Regist"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="102dp"-->
+<!--        tools:layout_editor_absoluteY="560dp" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextTextEmailAddress"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textEmailAddress"-->
+<!--        android:text="Email"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="100dp"-->
+<!--        tools:layout_editor_absoluteY="416dp" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextPhone"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="phone"-->
+<!--        android:text="Phone"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="100dp"-->
+<!--        tools:layout_editor_absoluteY="481dp" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextTextPassword"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:text="Password"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="100dp"-->
+<!--        tools:layout_editor_absoluteY="354dp" />-->
+
+
+</LinearLayout>

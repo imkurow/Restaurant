@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:src="@drawable/shape"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:text="REGISTER"
+            android:id="@+id/register"
+            app:cornerRadius="10dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/pink"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="top"
+            android:text="LOGIN"
+            android:id="@+id/login"
+            app:cornerRadius="10dp"
+            android:layout_marginLeft="35dp"
+            android:backgroundTint="@color/pink"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--    <TextView-->
+<!--        android:layout_width="235dp"-->
+<!--        android:layout_height="64dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Hello Welcome to Sushi Restaurant Website"-->
+<!--        android:textSize="20dp"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="88dp"-->
+<!--        tools:layout_editor_absoluteY="211dp" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="313dp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Please register first to access our website"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="49dp"-->
+<!--        tools:layout_editor_absoluteY="295dp" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="251dp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Already have an account ? "-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="80dp"-->
+<!--        tools:layout_editor_absoluteY="403dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/registBtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Register"-->
+<!--        tools:layout_editor_absoluteX="155dp"-->
+<!--        tools:layout_editor_absoluteY="341dp"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/loginBtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Login"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="161dp"-->
+<!--        tools:layout_editor_absoluteY="444dp" />-->
+
+
+</LinearLayout>
